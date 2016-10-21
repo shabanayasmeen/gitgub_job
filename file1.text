@@ -1,0 +1,18 @@
+this is github file
+$ git init
+branching commands mentioned below:
+1.git branch newbranchname
+for going to that branch use
+2.git checkout newbranchnane
+then create a file like below
+3.vi filename.txt
+then add some contents
+then save it
+then do normal procedure 4.status,add,commit
+then go to master branch
+by using command below
+5.git checkout master
+and merge new branch to master branch like below mentioned
+6.git merge newbranchname
+then delete the newbranch like below mentioned
+7.git branch -d newbranchname
